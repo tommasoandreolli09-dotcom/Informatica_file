@@ -1,5 +1,7 @@
 body {background-color:  rgb(255, 255, 255);}
 h1 {color: rgb(57, 101, 129); margin-left: 20px;text-align: center;font-size: xx-large;}
 h2 {color: rgb(65, 117, 151); margin-left: 20px;}
-.titolo{text-align: center;font-size: xx-large;color: rgb(0, 0, 0);padding: 30px; background-color: beige;}
-.link{text-align: center;font-size: larger;color: rgb(0, 0, 0);padding: 20px; background-color: rgb(255, 255, 245);margin: auto;width: 50%;}
+.titolo{text-align: center;font-size: xx-large;color: rgb(0, 0, 0);padding: 30px; background-color: rgb(0, 89, 255);}
+.link{flex-shrink:0; left;font-size: larger;color: rgb(0, 0, 0);padding: 20px; background-color: rgb(255, 255, 245);margin: 10px ;width: 15%;}
+.finestra{flex:1;background-color: rgb(255, 255, 245);margin: 10px ;width: 15%;padding: 20px;}
+.destra-sinistra{display: flex;justify-content: space-between;}
