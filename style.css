@@ -1,7 +1,9 @@
-body {background-color:  rgb(255, 255, 255);}
+body {background-color:  rgb(175, 219, 239);}
 h1 {color: rgb(57, 101, 129); margin-left: 20px;text-align: center;font-size: xx-large;}
-h2 {color: rgb(65, 117, 151); margin-left: 20px;}
-.titolo{text-align: center;font-size: xx-large;color: rgb(0, 0, 0);padding: 30px; background-color: rgb(0, 89, 255);}
-.link{flex-shrink:0; left;font-size: larger;color: rgb(0, 0, 0);padding: 20px; background-color: rgb(255, 255, 245);margin: 10px ;width: 15%;}
-.finestra{flex:1;background-color: rgb(255, 255, 245);margin: 10px ;width: 15%;padding: 20px;}
-.destra-sinistra{display: flex;justify-content: space-between;}
+h2 {text-align: center;color: rgb(65, 117, 151); margin-left: 20px;}
+.titolo{text-align: center;font-size: xx-large;color: rgb(40, 52, 83);padding: 30px; background-color: rgb(253, 253, 254);}
+.scheda {text-align: center;width: 30%;margin: 10px;padding: 15px;background-color: #ffffff;border: 1px solid #d8d1c2;border-radius: 10px;}
+.riga {display: flex;justify-content: space-between;}
+.sottotitolo {text-align: center;font-size: large;color: rgb(0, 0, 0);margin-bottom: 10px;}
+.scheda2 {width: 70%;margin: 10px;padding: 15px;background-color: #ffffff;border: 1px solid #d8d1c2;border-radius: 10px;}
+.table {margin: 10px;width: 100%;border-collapse: collapse;background-color: #ffffff;border: 1px solid #d8d1c2;border-radius: 10px;}
